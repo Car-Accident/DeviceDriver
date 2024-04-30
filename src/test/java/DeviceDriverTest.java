@@ -31,7 +31,6 @@ public class DeviceDriverTest {
     @Mock
     FlashMemoryDevice mockFlashMemoryDevice;
 
-
     @BeforeEach
     void setUp() {
         driver = new DeviceDriver(mockFlashMemoryDevice);
